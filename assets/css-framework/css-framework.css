@@ -1,0 +1,96 @@
+/* import the main font to be used in the framwork */
+
+@import url('https://fonts.googleapis.com/css?family=Athiti|Montserrat|Open+Sans');
+
+
+/* --- Components design --- */
+@import url('components/image.css');
+@import url('components/button.css');
+@import url('components/dropdown.css');
+@import url('components/form.css');
+@import url('components/checkbox.css');
+@import url('components/grid.css');
+@import url('components/table.css');
+@import url('components/modal.css');
+@import url('components/header.css');
+@import url('components/dimmer.css');
+@import url('components/transition.css');
+@import url('components/breadcrumb.css');
+@import url('components/navbar.css');
+
+/* === Document == */
+
+html {
+	line-height: 1.15;
+	-webkit-text-size-adjust: 100%;
+}
+
+/* === Sections === */
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+}
+
+main {
+	display: block;
+}
+
+
+/* === Text Compontents === */
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 4px;
+}
+
+h1 {
+	font-size: 2rem;
+	margin: 0.67em 0;
+}
+
+h2 {
+	font-size: 1.71428571rem;
+}
+
+h3 {
+	font-size: 1.28571429rem;
+}
+
+h4 {
+	font-size: 1.07142857rem;
+}
+
+h5 {
+	font-size: 1rem;
+}
+
+h6 {
+	font-size: 0.71428571rem;
+}
+
+a {
+	background-color: transparent;
+	text-decoration: none;
+}
+
+p {
+	font-size: 14px;
+}
+
+abbr[title] {
+	border-bottom: none;
+	text-decoration: underline;
+	text-decoration: underline dotted;
+}
+
+b, strong {
+	font-weight: bolder;
+}
+
+small {
+	font-size: 80%;
+}
+
+.show {
+	display: block !important;
+}
