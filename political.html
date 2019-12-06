@@ -96,7 +96,7 @@
         <!-- End Navigation -->
         <div class="political-title">
           <h1 class="featured-political-title">Caribbean Politics</h1>
-          <a href="" class="read-political">Read</a>
+          <a onclick="scrolling();" href="javascript:void(0)" class="read-political">Read</a>
         </div>
       </header>
       <!-- Political Aspect -->
@@ -104,7 +104,7 @@
         <h1>Politics</h1>
         <div class="political-main-content">
           <h2>Political Caribbean</h2>
-          <p>The Caribbean as defined in Table 1 is a combination of Independent, Associated and Colonial
+          <p>The Caribbean as defined in <a onclick="tableModal();" href="javascript:void(0)">Table 1</a> is a combination of Independent, Associated and Colonial
           dependent states. By the very set up, each country has its own agenda and pursuits. The varying
           governments of the region have collaborated in varying forms through economic and judicial
           integration. But what shows the high levels of mistrust is the lack of unison in political perspectives
@@ -120,6 +120,9 @@
           signs of grave mistrust and intolerance.</p>
         </div>
       </div>
+
+      <!-- Modal -->
+      <div id="modal"></div>
       <hr />
       <footer class="footer-container">
         <div class="footer-wrapper">
@@ -138,6 +141,7 @@
         <p>CopyRights &copy; 2019 Disgned by Sanjay. All Rights Reserved.</p>
       </footer>
       <script type="text/javascript" src="assets/css-framework/jquery-3.3.1.min.js"></script>
+      <script type="text/javascript" src="assets/css-framework/css-framework.js"></script>
       <script type="text/javascript" src="assets/js/functions.js"></script>
     </body>
 </html>
